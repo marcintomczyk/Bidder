@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<dataset>
+	<bid id="1" cost="10" />
+	<bid id="2" cost="20" />
+	<bid id="3" cost="30" />
+	<bid id="4" cost="40" />
+	<bid id="5" cost="50" />
+	<bid id="6" cost="60" />
+	<bid id="7" cost="70" />
+	<bid id="8" cost="80" />
+	
+	<site url="www.onet.pl" bid_id="1" />
+	<site url="www.wp.pl" bid_id="1" />
+	<site url="www.onet.pl" bid_id="2" />
+	<site url="www.wp.pl" bid_id="2" />
+	<site url="www.onet.pl" bid_id="3" />
+	<site url="www.wp.pl" bid_id="4" />
+	<site url="www.onet.pl" bid_id="5" />
+	<site url="www.wp.pl" bid_id="6" />
+	<site url="www.onet.pl" bid_id="7" />
+	<site url="www.wp.pl" bid_id="7" />
+	<site url="www.wp.pl" bid_id="8" />
+		
+</dataset>

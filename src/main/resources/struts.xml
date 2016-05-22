@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    
+	<package name="bid" namespace="/bid" extends="json-default">
+
+		<interceptors>
+			<interceptor name="json"
+				class="org.apache.struts2.json.JSONInterceptor">
+				<param name="contentType">application/json</param>
+			</interceptor>
+		</interceptors>
+
+		<action name="createBid">
+			<result name="success" type="freemarker">/WEB-INF/views/createBidView.ftl
+			</result>
+		</action>
+
+		<action name="submitBid" class="com.tomczyk.bidder.action.CreateBidAction">
+			<interceptor-ref name="jsonValidationWorkflowStack" />
+			<interceptor-ref name="json" />
+			<result type="json" />
+			<result name="input" type="json">
+				<param name="ignoreHierarchy">false</param>
+				<param name="includeProperties">
+					actionErrors.*,
+					actionMessages.*,
+					fieldErrors.*
+				</param>
+			</result>
+		</action>
+
+		<action name="viewBids" class="com.tomczyk.bidder.action.ViewBidsAction">
+			<result name="success" type="freemarker">/WEB-INF/views/bidsView.ftl</result>
+			<result name="input">pages/viewBids.jsp</result>
+		</action>
+	</package>
+
+</struts>

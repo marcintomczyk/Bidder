@@ -1,0 +1,47 @@
+#header {
+	font: tahoma;
+	color: blue;
+}
+
+#footer {
+	font: 60%/1 tahoma;
+	color: green;
+	text-align: right;
+}
+
+.error {
+	padding: 0px 8px;
+	color: red;
+}
+
+.bidInternalEror {
+	padding: 0px 8px;
+	color: red;
+}
+
+fieldset {
+	padding: 1em;
+	font: 90%/1 tahoma;
+	color: blue;
+}
+
+label {
+	font: 90%/1 tahoma;
+	color: blue;
+}
+
+table {
+	width: 70%;
+	height: 90%";
+	margin-left: 15%;
+	margin-right: 15%;
+	border: 1px solid blue;
+	border-spacing: 4px;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 0;
+}
+
+tr,td {
+	padding: 4px;
+}
