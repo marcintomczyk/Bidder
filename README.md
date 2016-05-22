@@ -1,16 +1,18 @@
 This is a sample project for BB - 'Bidder Simulator' :)
 
-Just another simple training project (the base for doing more complex things etc.). This time uses the following key technologies:
+Just another simple training project (the base for doing more complex things etc.).
 
-Struts2
-JQuery
-Freemarker templates
-Maven (with profiles)
-JPA (Hibernate)
-JSON
-DBunit
-Apache Derby
-Mockito
+This time uses the following key technologies:
+
+- Struts2
+- JQuery
+- Freemarker templates
+- Maven (with profiles)
+- JPA (Hibernate)
+- JSON
+- DBunit
+- Apache Derby
+- Mockito
 
 Additional notes:
 
